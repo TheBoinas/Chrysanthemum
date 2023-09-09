@@ -1,0 +1,39 @@
+<html>
+<head>
+<title> Declínio de Um Homem no nome q fica ali em cima </title>
+</head>
+<script>
+function funcao1()
+{
+var p=document.getElementById('senha').value;
+p=p.toUpperCase();
+if(p=="APOCALIPSE"){
+window.location.href = "3.html";
+}else{
+alert("Incorreto...");
+}
+}
+</script>
+<body bgcolor="black"><center>
+<br><br><br><br><br><br><br><br>
+<font color="white" size=4>
+CAP XX, 211 <br><br>
+
+1: 11 <br>
+2: 5 <br>
+3: 22 <br>
+4: 46 <br>
+5: 8 <br>
+6: 7 <br>
+7: 21 <br>
+8: 23 <br>
+9: 3 <br>
+10: 2 <br>
+</font>
+<br><br><br><br><br><br>
+<form>
+<input required="" autocomplete="off" type="text" name="senha" id="senha" placeholder="">
+<input type="button" onclick="funcao1()" value="Exibir Alert" />
+</form>
+</body>
+</html>

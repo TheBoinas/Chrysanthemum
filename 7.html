@@ -1,0 +1,28 @@
+<html>
+<head>
+<title> Declínio de Um Homem no nome q fica ali em cima </title>
+</head>
+<script>
+function funcao1()
+{
+var p=document.getElementById('senha').value;
+p=p.toUpperCase();
+if(p=="SIM"){ 
+window.location.href = "https://takemetoyouravalon.carrd.co/";
+}else{
+alert("Incorreto...");
+}
+}
+</script>
+<body bgcolor="black"><center>
+<br><br>
+<font color="white" size=4>
+<img src="responda.png">
+</font>
+<br><br><br><br>
+<form>
+<input required="" autocomplete="off" type="text" name="senha" id="senha" placeholder="">
+<input type="button" onclick="funcao1()" value="Exibir Alert" />
+</form>
+</body>
+</html>

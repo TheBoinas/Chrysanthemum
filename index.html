@@ -1,0 +1,26 @@
+<html>
+<head>
+<title> Declínio de Um Homem no nome q fica ali em cima </title>
+</head>
+<script>
+function funcao1()
+{
+var p=document.getElementById('senha').value;
+p=p.toUpperCase();
+if(p=="CHOMSKY"){
+window.location.href = "2.html";
+}else{
+alert("Incorreto...");
+}
+}
+</script>
+<body bgcolor="black"><center>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<font color="white" size=4>Ideias verdes incolores dormem furiosamente.</font>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<form>
+<input required="" autocomplete="off" type="text" name="senha" id="senha" placeholder="">
+<input type="button" onclick="funcao1()" value="Exibir Alert" />
+</form>
+</body>
+</html>
